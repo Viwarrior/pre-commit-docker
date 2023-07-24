@@ -1,0 +1,9 @@
+FROM python:3
+LABEL AUTHOR=Avinash
+RUN pip install pre-commit && \
+    apt-get update; apt-get install -y git && \
+    mkdir /usr/local/app && \
+    git config --global --add safe.directory /usr/local/app
+WORKDIR /usr/local/app
+COPY pre-commit.sh /tmp
+ENTRYPOINT [ "sh" , "/tmp/pre-commit.sh" ]
