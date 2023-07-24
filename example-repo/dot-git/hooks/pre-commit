@@ -1,0 +1,6 @@
+#!/bin/sh
+# This is important to add as pre-commit
+# Create a container for pre-commit, mount src file
+# This will invoke the pre-commit hook from pre-commit.sh
+docker run --rm -v $(git rev-parse --show-toplevel)/:/usr/local/app/ -v /usr/local/app/.git/hooks/ \
+--name pre-commit-run pre-commit-docker
