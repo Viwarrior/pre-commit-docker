@@ -1,3 +1,6 @@
+[![Github](https://img.shields.io/badge/GitHub-100000?style=flat-sqaure&logo=github&logoColor=white)](https://github.com/Viwarrior/pre-commit-docker)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Viwarrior/pre-commit-docker/blob/main/LICENSE)
+
 # **Pre-Commit-Docker**
 Docker image to run pre-commit hooks (https://pre-commit.com/) inside docker container.
 
@@ -29,3 +32,7 @@ docker run --rm -v $(git rev-parse --show-toplevel)/:/usr/local/app/ -v /usr/loc
 
 ## Examples
 See `example-repo` for reference.
+
+## License
+
+[MIT © Avinash](./LICENSE)
