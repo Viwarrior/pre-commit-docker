@@ -18,6 +18,11 @@ upon completion.
 ```
 docker build -t pre-commit-docker -f Dockerfile.pre-commit .
 ```
+or
+
+```
+docker pull justavinash/pre-commit-docker:latest
+```
 
 ## Pre-commit config
  Create .pre-commit-config.yaml in repository's base dir (see https://pre-commit.com/#2-add-a-pre-commit-configuration)
