@@ -1,5 +1,6 @@
-[![Github](https://img.shields.io/badge/GitHub-100000?style=flat-sqaure&logo=github&logoColor=white)](https://github.com/Viwarrior/pre-commit-docker)
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Viwarrior/pre-commit-docker/blob/main/LICENSE)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Viwarrior/pre-commit-docker)
+[![Dockerhub](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/justavinash/pre-commit-docker)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/Viwarrior/pre-commit-docker/blob/main/LICENSE)
 
 # **Pre-Commit-Docker**
 Docker image to run pre-commit hooks (https://pre-commit.com/) inside docker container.
